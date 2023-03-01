@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Border
+  - Node
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Grid
+    uniqueID: 2425471947
+    locked: 0
+  - name: Node
+    uniqueID: 3607319915
+    locked: 0
+  - name: Turret
+    uniqueID: 2735236627
+    locked: 0
+  - name: Arrow
+    uniqueID: 3591324135
+    locked: 0
+  - name: Enemy
+    uniqueID: 2691686781
+    locked: 0
