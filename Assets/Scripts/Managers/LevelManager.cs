@@ -29,14 +29,14 @@ public class LevelManager : Singleton<LevelManager>
 
     private void GameOver()
     {
-        //UIManager.Instance.ShowGameOverPanel();
-        //UIManager.Instance.PauseTime();
+        UIManager.Instance.ShowGameOverPanel();
+        UIManager.Instance.PauseTime();
     }
 
     private void YouWin()
     {
-        //UIManager.Instance.ShowWinPanel();
-        //UIManager.Instance.PauseTime();
+        UIManager.Instance.ShowWinPanel();
+        UIManager.Instance.PauseTime();
     }
 
     private void WaveCompleted()

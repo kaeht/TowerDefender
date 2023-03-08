@@ -11,25 +11,25 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private GameObject turretShopPanel;
     [SerializeField] private GameObject nodeUIPanel;
     //[SerializeField] private GameObject achievementPanel;
-    //[SerializeField] private GameObject gameOverPanel;
-    //[SerializeField] private GameObject winPanel;
+    [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private GameObject winPanel;
 
     [Header("Text")]
     [SerializeField] private Text upgradeText;
     [SerializeField] private Text sellText;
     [SerializeField] private Text turretLevelText;
-    //[SerializeField] private Text totalCoinsText;
-    //[SerializeField] private Text lifesText;
-    //[SerializeField] private Text currentWaveText;
+    [SerializeField] private Text totalCoinsText;
+    [SerializeField] private Text lifesText;
+    [SerializeField] private Text currentWaveText;
     //[SerializeField] private Text gameOverTotalCoinsText;
 
     private Node _currentNodeSelected;
 
     private void Update()
     {
-        //totalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
-        //lifesText.text = LevelManager.Instance.TotalLives.ToString();
-        //currentWaveText.text = "Wave " + LevelManager.Instance.CurrentWave;
+        totalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
+        lifesText.text = LevelManager.Instance.TotalLives.ToString();
+        currentWaveText.text = "Wave " + LevelManager.Instance.CurrentWave;
     }
 
     public void SlowTime()
@@ -54,13 +54,13 @@ public class UIManager : Singleton<UIManager>
 
     public void ShowGameOverPanel()
     {
-        //gameOverPanel.SetActive(true);
+        gameOverPanel.SetActive(true);
         //gameOverTotalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
     }
 
     public void ShowWinPanel()
     {
-        //winPanel.SetActive(true);
+        winPanel.SetActive(true);
     }
 
     public void RestartGame()

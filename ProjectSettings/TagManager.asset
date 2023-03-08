@@ -48,11 +48,11 @@ TagManager:
   - name: Node
     uniqueID: 3607319915
     locked: 0
-  - name: Turret
-    uniqueID: 2735236627
-    locked: 0
   - name: Arrow
     uniqueID: 3591324135
+    locked: 0
+  - name: Turret
+    uniqueID: 2735236627
     locked: 0
   - name: Enemy
     uniqueID: 2691686781
