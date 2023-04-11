@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6c0d6ebc290e04e9ec5039990ca56b, type: 3}
+  m_Name: Cordoba
+  m_EditorClassIdentifier: 
+  TurretPrefab: {fileID: 6718121271414104234, guid: 3c906f2b4c96ed443a9a478184ec1c8f, type: 3}
+  TurretShopCost: 40
+  TurretShopSprite: {fileID: -5673093424597326733, guid: a784ad3599ed34f4aaec86f524033ef3, type: 3}
