@@ -21,7 +21,7 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private Text totalCoinsText;
     [SerializeField] private Text lifesText;
     [SerializeField] private Text currentWaveText;
-    //[SerializeField] private Text gameOverTotalCoinsText;
+    [SerializeField] private Text gameOverTotalCoinsText;
 
     private Node _currentNodeSelected;
 
@@ -55,7 +55,7 @@ public class UIManager : Singleton<UIManager>
     public void ShowGameOverPanel()
     {
         gameOverPanel.SetActive(true);
-        //gameOverTotalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
+        gameOverTotalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
     }
 
     public void ShowWinPanel()

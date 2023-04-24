@@ -33,7 +33,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 6326570831769725145}
-    m_Position: {x: 346.54407, y: 60.579727, z: 0}
+    m_Position: {x: 350, y: 60, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -51,7 +51,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Baeh'Gol
+  m_Name: Golbaz
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -64,7 +64,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6382bf1476684234ba4dbb8c9ef26f0c, type: 2}
+  m_Motion: {fileID: 7400000, guid: bc3e2485160722048829a71ffe126483, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

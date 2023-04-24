@@ -18,7 +18,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private SpawnModes spawnMode = SpawnModes.Fixed;
     [SerializeField] private int enemyCount = 10;
     [SerializeField] private float delayBtwWaves = 1f;
-    [SerializeField] private GameObject testGO;
+    //[SerializeField] private GameObject testGO;
 
     [Header("Fixed Delay")]
     [SerializeField] private float delayBtwSpawns;
@@ -29,6 +29,8 @@ public class Spawner : MonoBehaviour
 
     [Header("Poolers")]
     [SerializeField] private ObjectPooler enemyWave1Pooler;
+    [SerializeField] private ObjectPooler enemyWave2Pooler;
+    [SerializeField] private ObjectPooler enemyWave3Pooler;
 
     private float _spawnTimer;
     private int _enemiesSpawned;
@@ -99,15 +101,15 @@ public class Spawner : MonoBehaviour
             return enemyWave1Pooler;
         }
 
-        //if (currentWave > 1 && currentWave <= 2) // 11- 20
-        //{
-        //    return enemyWave2Pooler;
-        //}
+        if (currentWave > 1 && currentWave <= 2) // 11- 20
+        {
+            return enemyWave2Pooler;
+        }
 
-        //if (currentWave > 2 && currentWave <= 3) // 21- 30
-        //{
-        //    return enemyWave3Pooler;
-        //}
+        if (currentWave > 2 && currentWave <= 3) // 21- 30
+        {
+            return enemyWave3Pooler;
+        }
 
 
 

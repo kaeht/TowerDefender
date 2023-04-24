@@ -33,6 +33,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -102,6 +103,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -149,6 +154,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4436}
     - Class: 114
+      Script: {instanceID: 4476}
+    - Class: 114
       Script: {instanceID: 5148}
     - Class: 114
       Script: {instanceID: 5702}
@@ -182,6 +189,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
     - Class: 483693784
@@ -201,7 +214,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
@@ -228,6 +249,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3690}
     - Class: 114
+      Script: {instanceID: 4476}
+    - Class: 114
       Script: {instanceID: 5032}
     - Class: 114
       Script: {instanceID: 5502}
@@ -246,6 +269,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/Started.unity:
     - Class: 1
@@ -821,7 +850,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: a719b09b9a39ab9d88d9609d5e6ebbee
+      Hash: a06cd918309486bded1f415e5919375b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -1439,7 +1468,7 @@ ScriptsOnlyBuild:
     className: ActivationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: c74a5605208e1757fc6ba12c3c871cb1
+      Hash: f0fe7faf7777d492e2fe600a886aeac8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Spawner
